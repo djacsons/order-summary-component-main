@@ -1,0 +1,96 @@
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1980px 500px;
+    font-size: 16px;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    color: hsl(223, 47%, 23%);
+}
+h1{
+    font-weight: 900;    
+}
+.orderArea{
+    box-shadow: 10px 20px 15px hsl(227, 30%, 91%);
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25rem;
+    height: 40rem;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.textArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+    padding: 3%;
+}
+
+.pic1{
+    width: 100%;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
+button{
+    cursor: pointer;
+    border: none;
+    width: 90%;
+    height: 12%;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 1px 15px 10px hsl(246, 40%, 90%);
+}
+.pricing{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+    width: 80%;
+    height: 13%;
+    border-radius: 10%;
+}
+.payment{
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+}
+.payment:active{
+    background-color:hsl(248, 80%, 71%);
+}
+.cancel{
+color: hsl(224, 23%, 55%);
+font-weight: 700;
+cursor: pointer;
+}
+.cancel:active{
+color: black;}
+.changeLink{
+    color:hsl(245, 75%, 52%);
+}
+.changeLink:active{
+    color: hsl(248, 80%, 71%);
+    text-decoration: none;
+}
+.subscriptionText{
+    display: flex; flex-direction: column; 
+    margin-left: -4rem;
+}
+@media only screen and (max-width:600px){
+    .orderArea{
+        width: 20rem;
+        height: 35rem;
+    }
+    .subscriptionText{
+        margin-left: -2rem;
+    }
+
+
+}
